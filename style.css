@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',;
+}
+
+body {
+    background-color: rgb(82, 68, 26);
+
+}
+
+.price-heading {
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0;
+    color: #ebebeb;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4rem 2.1rem 5.2rem;
+    background-color: rgb(249, 241, 241);
+    margin: 0 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .2s all linear;
+    margin-bottom: 2.4rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.pricing-item:hover {
+    transform: scale(1.01);
+    box-shadow: 0 1rem 1rem 0rem #a5a0a7;
+}
+
+.pricing-item li {
+    list-style: none;
+}
+
+.pricing {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: rgb(14, 21, 23);
+    font-weight: bold;
+}
+
+.pricing-kit {
+    font-size: 1rem;
+    background-color: skyblue;
+    padding: .7rem 1.5rem;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.pricing-item:hover .pricing-kit {
+    box-shadow: 0 0 0 40rem rgb(52, 136, 164);
+}
+
+.pricing-item:hover .order-btn {
+    background-color: rgb(2, 4, 5);
+    color: rgb(177, 89, 89);
+    font-weight: lighter;
+    border-color: rgb(125, 61, 61);
+}
+
+.pricing-item:hover .pricing {
+    color: rgb(179, 158, 158);
+    transition: .4s linear;
+}
+
+.offers li {
+    font-size: 1.4rem;
+    margin: 0.7rem 0;
+}
+
+.order-btn {
+    border: none;
+    border: 2px solid rgb(34, 99, 140);
+    background-color: transparent;
+    color: rgb(30, 163, 208);
+    cursor: pointer;
+    margin-top: 2rem;
+    padding: .7rem 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+.order-btn:hover {
+    background-color: rgb(56, 152, 155);
+    color: rgb(194, 105, 105);
+    font-weight: bold;
+    border-color: rgb(153, 86, 86);
+}
